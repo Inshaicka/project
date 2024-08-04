@@ -32,7 +32,7 @@ body{
 	max-width: 750px;
 }
 
-.greeting button {
+.greeting button, .feedback button {
     display: inline-flex;
     font-size: 14px;
     font-weight: 700;
@@ -48,7 +48,7 @@ body{
     opacity: 0.75;
 }
 
-.greeting button:hover {
+.greeting button:hover, .feedback button:hover {
 	opacity: 1;
 }
 
@@ -98,7 +98,34 @@ th p{
 	height: 50px;
 }
 
-.meet-laurel{
+.meet-laurel, .feedback{
 	text-align: center;
 	color: white;
+}
+
+
+.meet-laurel h1, .feedback h1{
+	color: white;
+	font-size: 48px;
+}
+
+.meet-laurel h3{
+	color: grey;
+}
+
+.input{
+	font-size: 16px;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+    padding: 13px 16px;
+    height: 24px;
+    box-shadow: none;    
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #273C5A;
+    border-radius: 2px;
+    color: #7487A3;
+    width: 250px;
+    margin-right: 15px;
 }
